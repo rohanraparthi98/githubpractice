@@ -1,0 +1,3 @@
+1..8 | foreach-object {      
+     New-Item -Path D:\StaragileDevOps\Gitignore\practice\githubpractice -Name ('fn_{0}.pdf' -f $_) -ItemType 'File' 
+}
